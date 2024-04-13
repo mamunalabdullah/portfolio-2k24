@@ -1,4 +1,14 @@
 /* common styles  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 body{
   font-family: "Open Sans", sans-serif;
 }
@@ -18,12 +28,15 @@ body{
 /* header area styles */
 header{
     background-color: #FFF8F3;
+    background-image: url("images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 nav{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    padding: 0 170px 0 220px;
+    padding: 50px 170px 30px 220px;
 }
 .nav-title{
     font-size: 45px;
@@ -44,3 +57,27 @@ nav a{
     font-size: 20px;
 }
 
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-text{
+    padding-left: 220px;
+    width: 800px;
+}
+.banner-greetings{
+    font-size: 45px;
+    color: #474747;
+}
+.banner-title{
+    font-size: 85px;
+    color: #181818;
+    font-weight: 800;
+}
+.banner-description{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 20px;
+}
