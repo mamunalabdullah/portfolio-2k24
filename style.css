@@ -82,19 +82,57 @@ nav a{
     margin-bottom: 20px;
 }
 
-/* about area styles */
-.about{
-    padding: 130px;
-    margin: 130px;
-    background-color: #FFF8F3;
-    text-align: center;
+/* main area styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
 }
+
 .section-title{
     color: #181818;
     font-size: 35px;
-    margin-bottom: 30px;
+    text-align: center;
 }
 .section-description{
     color: #757575;
     font-size: 18px;
+    text-align: center;
+}
+/* about area styles */
+.about{
+    padding: 130px;
+    margin: 130px 0;
+    background-color: #FFF8F3;
+}
+
+.about-content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+.about-description{
+    margin-top: 30px;
+}
+
+/* skills srea styles */
+.skills-description{
+    padding: 30px 150px;
+}
+
+.skills-content{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #757575;
+}
+.skill-title{
+    margin: 15px 0;
+}
+
+/* resume area styles */
+.resume{
+     margin: 130px 0;
 }
