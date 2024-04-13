@@ -81,3 +81,20 @@ nav a{
     color: #757575;
     margin-bottom: 20px;
 }
+
+/* about area styles */
+.about{
+    padding: 130px;
+    margin: 130px;
+    background-color: #FFF8F3;
+    text-align: center;
+}
+.section-title{
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.section-description{
+    color: #757575;
+    font-size: 18px;
+}
