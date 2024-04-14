@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 img{
-    display: block;
     max-width: 100%;
     height: auto;
 }
@@ -151,4 +150,31 @@ main{
 }
 .download{
     text-align: center;
+}
+
+
+/* footer area styles */
+footer{
+    background: #FFF8F3;
+    display: flex;
+    gap: 100px;
+    padding: 50px 200px;
+}
+.footer-title, .footer-description{
+    text-align: start;
+}
+.footer-item{
+    width: 50%;
+}
+.social-links a{
+    margin-right: 25px;
+}
+
+.footer-form input[type=text], .footer-form input[type=email], textarea{
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+    padding: 15px;
+    border: 0;
+    border-radius: 5px;
 }
