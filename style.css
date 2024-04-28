@@ -27,9 +27,9 @@ body{
 /* header area styles */
 header{
     background-color: #FFF8F3;
-    background-image: url("images/header_bg.png");
+    background-image: url('images/developer.png'),url('images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom left,bottom right;
 }
 nav{
     display: flex;
@@ -177,4 +177,55 @@ footer{
     padding: 15px;
     border: 0;
     border-radius: 5px;
+}
+
+@media screen and (max-width: 576px) {
+    header{
+        background-image: none;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .banner{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .banner-greetings{
+        font-size: 25px;
+    }
+    .banner-title{
+        font-size: 45px;
+    }
+    .about{
+        padding: 20px;
+    }
+    .about-content{
+        flex-direction: column;
+    }
+    .skills-description{
+        padding: 50px;
+    }
+    .skills-content, .resume-content{
+        flex-direction: column;
+        margin: 20px;
+    }
+    footer{
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+    .footer-item{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .skills-description{
+        padding: 50px;
+    }
+    .skills-content, .resume-content{
+        flex-direction: column;
+        margin: 20px;
+    }
 }
